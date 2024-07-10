@@ -1,1 +1,220 @@
+#DEMO OF THE OUTPUT APPLICATION INCLUDING ALL THE CHOICES RESPECTIVELY.
 
+python -u "/Users/yogasreedharreddykakanuru/Downloads/factwise-python/__init__.py"
+(base) yogasreedharreddykakanuru@YOGAs-MacBook-Air factwise-python % python -u "/Users/yogasreedharreddyka
+kanuru/Downloads/factwise-python/__init__.py"
+Select an option :
+1.Create User
+2.Remove User
+3.Create Team
+4.Add User To Team
+5.Remove user from Team
+6.Create Board
+7.Add Task to Board
+8.Remove Task from Board
+9.Get User
+10.Get Team
+11.Get Board
+12.Exit
+Enter the number of your choice: 1
+Enter User Id: 1000
+Enter user name: sachin tendulkar
+{"status": "success", "user_id": "1000"}
+Select an option :
+1.Create User
+2.Remove User
+3.Create Team
+4.Add User To Team
+5.Remove user from Team
+6.Create Board
+7.Add Task to Board
+8.Remove Task from Board
+9.Get User
+10.Get Team
+11.Get Board
+12.Exit
+Enter the number of your choice: 9
+Enter user id: 1000
+{"status": "success", "user": {"name": "sachin tendulkar"}}
+Select an option :
+1.Create User
+2.Remove User
+3.Create Team
+4.Add User To Team
+5.Remove user from Team
+6.Create Board
+7.Add Task to Board
+8.Remove Task from Board
+9.Get User
+10.Get Team
+11.Get Board
+12.Exit
+Enter the number of your choice: 3
+Enter team Id: 1
+Enter team name: yoga 
+{"status": "success", "team_id": "1"}
+Select an option :
+1.Create User
+2.Remove User
+3.Create Team
+4.Add User To Team
+5.Remove user from Team
+6.Create Board
+7.Add Task to Board
+8.Remove Task from Board
+9.Get User
+10.Get Team
+11.Get Board
+12.Exit
+Enter the number of your choice: 10
+enter team id: 1
+{"status": "success", "team": {"name": "yoga ", "users": []}}
+Select an option :
+1.Create User
+2.Remove User
+3.Create Team
+4.Add User To Team
+5.Remove user from Team
+6.Create Board
+7.Add Task to Board
+8.Remove Task from Board
+9.Get User
+10.Get Team
+11.Get Board
+12.Exit
+Enter the number of your choice: 1
+Enter User Id: 1001
+Enter user name: yoga 
+{"status": "success", "user_id": "1001"}
+Select an option :
+1.Create User
+2.Remove User
+3.Create Team
+4.Add User To Team
+5.Remove user from Team
+6.Create Board
+7.Add Task to Board
+8.Remove Task from Board
+9.Get User
+10.Get Team
+11.Get Board
+12.Exit
+Enter the number of your choice: 10
+enter team id: 1 
+{"status": "success", "team": {"name": "yoga ", "users": []}}
+Select an option :
+1.Create User
+2.Remove User
+3.Create Team
+4.Add User To Team
+5.Remove user from Team
+6.Create Board
+7.Add Task to Board
+8.Remove Task from Board
+9.Get User
+10.Get Team
+11.Get Board
+12.Exit
+Enter the number of your choice: 4
+Enter team Id: 1
+Enter user id: 1
+{"status": "success", "user_id": "1"}
+Select an option :
+1.Create User
+2.Remove User
+3.Create Team
+4.Add User To Team
+5.Remove user from Team
+6.Create Board
+7.Add Task to Board
+8.Remove Task from Board
+9.Get User
+10.Get Team
+11.Get Board
+12.Exit
+Enter the number of your choice: 10
+enter team id: 1
+{"status": "success", "team": {"name": "yoga ", "users": ["1"]}}
+Select an option :
+1.Create User
+2.Remove User
+3.Create Team
+4.Add User To Team
+5.Remove user from Team
+6.Create Board
+7.Add Task to Board
+8.Remove Task from Board
+9.Get User
+10.Get Team
+11.Get Board
+12.Exit
+Enter the number of your choice: 6
+Enter board Id: 1
+Enter board name: ram
+{"status": "success", "board_id": "1"}
+Select an option :
+1.Create User
+2.Remove User
+3.Create Team
+4.Add User To Team
+5.Remove user from Team
+6.Create Board
+7.Add Task to Board
+8.Remove Task from Board
+9.Get User
+10.Get Team
+11.Get Board
+12.Exit
+Enter the number of your choice: 11
+enter board id: 1
+{"status": "success", "board": {"name": "ram", "tasks": {}}}
+Select an option :
+1.Create User
+2.Remove User
+3.Create Team
+4.Add User To Team
+5.Remove user from Team
+6.Create Board
+7.Add Task to Board
+8.Remove Task from Board
+9.Get User
+10.Get Team
+11.Get Board
+12.Exit
+Enter the number of your choice: 7
+Enter board Id: 1
+Enter task id: 100
+enter task description: I want to do python web application.
+{"status": "success", "task_id": "100"}
+Select an option :
+1.Create User
+2.Remove User
+3.Create Team
+4.Add User To Team
+5.Remove user from Team
+6.Create Board
+7.Add Task to Board
+8.Remove Task from Board
+9.Get User
+10.Get Team
+11.Get Board
+12.Exit
+Enter the number of your choice: 11
+enter board id: 1
+{"status": "success", "board": {"name": "ram", "tasks": {"100": "I want to do python web application."}}}
+Select an option :
+1.Create User
+2.Remove User
+3.Create Team
+4.Add User To Team
+5.Remove user from Team
+6.Create Board
+7.Add Task to Board
+8.Remove Task from Board
+9.Get User
+10.Get Team
+11.Get Board
+12.Exit
+Enter the number of your choice: 12
+exiting from the application.......
+(base) yogasreedharreddykakanuru@YOGAs-MacBook-Air factwise-python % 
